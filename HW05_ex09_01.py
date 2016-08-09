@@ -15,7 +15,7 @@ def word_read():
         rem_space = line.replace(' ', '')   # removes spaces from the word by replacing it by ''
         word = rem_space.strip('\n')         # removes the trailing \n
         if len(word) > 20:
-            print(word + ' '+ str(len(word))  # prints words with more than 20 characters
+            print(word + ' '+ str(len(word)))  # prints words with more than 20 characters
 
 
 
@@ -23,5 +23,6 @@ def word_read():
 def main():
     
     word_read()
+
 if __name__ == '__main__':
     main()
